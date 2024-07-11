@@ -4,6 +4,7 @@ def main():
     num_words = get_num_words(words)
     letter_count = get_letter_count(words)
     print(f"This book contains {num_words} words")
+    print(letter_count)
         
 
 def get_book_text(book):
@@ -22,7 +23,6 @@ def get_letter_count(book):
         else:
             dictionary[letters] = 1
     return dictionary
-
     
 
 main()
